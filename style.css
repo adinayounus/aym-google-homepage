@@ -1,0 +1,139 @@
+html, body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+header li {
+  margin-right: 15px;
+  color: #53565f; 
+  font-size: 14px;
+  display: flex; 
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: #53565f;
+}
+
+header img {
+  width: 35px;
+  height: 35px; 
+  border-radius: 50%;
+  margin-right: 0;
+}
+
+.logocontainer {
+  text-align: center;
+  margin-top: 300px;
+}
+
+.logo img {
+  width: 270px;
+  margin-bottom: 30px;
+}
+
+.search-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  width: 480px;
+  height: 44px;
+  padding: 0 50px 0 20px; 
+  font-size: 16px;
+  border: 1px solid #e3e3e3;
+  border-radius: 24px;
+  outline: none;
+}
+
+.search-box input:focus {
+  box-shadow: 0 1px 6px #878787ff;
+}
+
+.search-box button {
+  position: absolute;
+  right: 15px;
+  background: none;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.search-box button img {
+  width: 20px;
+  height: 20px;
+}
+
+.buttons ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.buttons li {
+  margin: 0 5px;
+}
+
+.buttons a {
+  display: inline-block;
+  background-color: #ffffff;
+  border: 1px solid #d6d6d7; 
+  color: #676a6c;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.buttons a:hover {
+  background-color: #f1f3f4;
+  box-shadow: 0 1px 6px #6d6e6f;
+}
+
+footer {
+  padding-top: 350px;
+  bottom: 20px;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}
+
+footer p {
+  color: #7a7a7a; 
+}
+
+footer a {
+  color: #7a7a7a;
+  text-decoration: none;
+}
